@@ -12,6 +12,7 @@ double ea(int x, int n)
  f=f*n;
  return r+p/f;
 }
+//Requires more multiplication
 //Taylor Series Horner’s Rule
 double eb(int x, int n)
 {
@@ -21,6 +22,8 @@ double eb(int x, int n)
  s=1+x*s/n;
  return eb(x,n-1);
 }
+//Time complexity using Horners Rule is O(n).
+
 //Taylor Serie Iterative
 double e(int x, int n)
 {
