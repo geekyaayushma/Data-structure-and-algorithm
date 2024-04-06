@@ -5,15 +5,12 @@ void fun(int n)
  {
  printf("%d ",n);
  fun(n-1);
-
- }
+}
 }
 int main() 
 {
  int x=3;
 
  fun(x);
- return
-0
-;
+ return 0;
 }
