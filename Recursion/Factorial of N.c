@@ -20,4 +20,4 @@ int main()
  int a=fact(6);
  printf("%d\n%d",r,a);
  return 0;
-} 
+}//The time complexity is o(n).
