@@ -12,4 +12,4 @@ int main()
  r=fun(95);
  printf("%d\n",r);
  return 0;
-}
+}//The time complexity is O(n/11).
