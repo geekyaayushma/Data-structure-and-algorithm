@@ -11,4 +11,4 @@ int main()
  int r=sum(5);
  printf("%d ",r);
  return 0;
-}
+}//The time complexity is O(n).
